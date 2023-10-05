@@ -4,6 +4,10 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+charset-normalizer = "==3.3.0"
+alabaster = "==0.7.13"
+certifi = "==2023.7.22"
+colorama = "==0.4.6"
 
 [dev-packages]
 
