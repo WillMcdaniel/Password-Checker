@@ -1,5 +1,6 @@
 import pyinputplus
 
+
 def check_password(password: str):
     with open('passwords.text', 'r') as file:
         common_passwords: list[str] = file.read().splitlines()
